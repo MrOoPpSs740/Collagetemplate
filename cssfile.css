@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.logo{
+	padding-left: 0px;
+	width: 154px;
+	height:54px;
+	position: sticky;
+	}
+	.drop{
+		padding-right: 6.5rem;
+    padding-left: 0.5rem;
+	}
+.dropdown-menu {
+  
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    min-width: max-content;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 0.5rem;
+    padding-left: 66px;
+    font-size: 16px
+}
+ul li a{
+	color:blue;
+}
+
+.myname {
+	
+text-align: center;
+color:darkblue;
+}
+h2{
+	text-align: center;
+}
+.col-md-2{
+	padding:0px;
+	margin-left: 10px;
+}
+h5,h6{
+	color: blue;
+	text-align: center;
+}
+.img2{
+	height: auto;
+	width: 100%;
+}
+
+/*card */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+.row {
+	margin: 0 -5px;
+}
+.row:after {
+  content: "";
+  display: table;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 9px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+ 
+.card-title h4{
+	color: white;
+	background-color: blue;
+	text-align: center;
+	border: 10px solid;
+}
+/* card end */
+.two{
+	min-height: 100px;
+	margin:20px;
+	padding-left:30px;
+}
+.myhome{
+	
+	filter: brightness(75%) ;
+	 margin: 10px;
+	 padding:20px;
+}
+.myhome h4{
+	color:blue;
+}
+.mg{
+	 background-repeat:no-repeat;
+	 position: sticky;
+	 height: 100%;
+	 width: 100%;
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fafa{
+	 color: white;
+    text-align: inline;
+    text-decoration: none;
+    background-color: #6d6363;
+}
+.fafa i {
+	color: white;
+}
+.fafa ul li a{
+	color: white;
+}
+.fafa h4{
+	color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
